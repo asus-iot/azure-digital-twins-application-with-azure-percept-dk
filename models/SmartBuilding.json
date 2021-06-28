@@ -1,0 +1,13 @@
+{
+    "@context": "dtmi:dtdl:context;2",
+    "@id": "dtmi:asus:smart_building:smart_building;1",
+    "@type": "Interface",
+    "displayName": "ASUS Smart Building",
+    "contents": [
+        {
+            "@type": "Relationship",
+            "name": "contains",
+            "displayName": "contains"
+        }
+    ]
+}

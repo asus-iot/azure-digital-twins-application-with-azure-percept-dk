@@ -1,0 +1,28 @@
+{
+    "@id": "dtmi:asus:smart_building:Floor;1",
+    "@type": "Interface",
+    "displayName": "Floor",
+    "@context": [
+        "dtmi:dtdl:context;2"
+    ],
+    "contents": [
+        {
+            "@type": "Relationship",
+            "name": "contains",
+            "displayName": "contains",
+            "target": "dtmi:asus:smart_building:Elevator_DK;1",
+            "properties": [
+                {
+                    "name": "ownershipUser",
+                    "@type": "Property",
+                    "schema": "string"
+                },
+                {
+                    "name": "ownershipDepartment",
+                    "@type": "Property",
+                    "schema": "string"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,28 @@
+{
+    "@context": "dtmi:dtdl:context;2",
+    "@id": "dtmi:asus:smart_building:Entry_DK;1",
+    "@type": "Interface",
+    "displayName": "Entry DK",
+    "contents": [
+        {
+            "@type": "Property",
+            "name": "Temperature",
+            "schema": "double"
+        },
+        {
+            "@type": "Property",
+            "name": "Humidity",
+            "schema": "double"
+        },
+        {
+            "@type": "Property",
+            "name": "ObjectDetect",
+            "schema": "string"
+        },
+        {
+            "@type": "Property",
+            "name": "PeopleAlert",
+            "schema": "integer"
+        }
+    ]
+}
